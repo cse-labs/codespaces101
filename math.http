@@ -1,0 +1,11 @@
+# math_api app endpoints
+
+# add
+GET http://localhost:5000/add?x=5&y=3 HTTP/1.1
+
+###
+
+# add again
+GET http://localhost:5000/add?x=100&y=10101 HTTP/1.1
+
+###
