@@ -7,12 +7,12 @@ In order to learn about configuring development containers, it is helpful to sta
 }
 ```
 
-Although the above works, you will likely want a more helpful configuration.  If you are getting started building a devcontainer, the easiest way is to get started is to use the [predefined container configurations](https://docs.github.com/en/codespaces/customizing-your-codespace/configuring-codespaces-for-your-project#using-a-predefined-container-configuration) that are available.  They provide a good starting development environment configuration for different environments.
+Although the above works, you will likely want a more helpful configuration.  If you are getting started building a devcontainer, the easiest way is to get started is to use the [predefined container configurations](https://docs.github.com/en/codespaces/customizing-your-codespace/configuring-codespaces-for-your-proje`ct#using-a-predefined-container-configuration) that are available.  They provide a good starting development environment configuration for different environments.
 
 ## Challenge
 In this challenge, you need to accomplish the following, using **Visual Studio Code**:
 - Using a predefined container configuration, create a development container configuration
-- Open the root folder (Codespaces) in a development container (Remote-Containers)
+- Open the root folder (CodespacesTraining) in a development container (Remote-Containers)
 - Run the python tests.  6 should pass.  In order to run the tests, you need to open a bash terminal in the development container and run the following:
 ```bash
 $ pytest
@@ -37,7 +37,7 @@ tests/api/test_math_api.py ......                                               
 - You can find the helpful commands in VS Code by pressing (Ctrl+Shift+P on Windows) or (Cmd+Shift+P on a Mac) and typing "Remote-Containers".  You will see the remote containers options in the menu.
 - This is a Python app 
   - You can use Python 3.9
-  - The requirements.txt file holds all the dependencies required by the application
+  - The requirements.txt and dev_requirements.txt files holds all the dependencies required by the application
   - You can install the requirements by running the following in a bash terminal:
     ```bash
     python -m pip install --upgrade pip
