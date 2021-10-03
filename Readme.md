@@ -37,7 +37,7 @@ If you complete this self-directed training, you will:
 - Patterns and best practices working with development containers and GitHub Codespaces
 
 # Overview - Development containers, GitHub Codespaces & Visual Studio Code
-The goal of these technologies is to allow developers to define a fully configured development environment, run it in a container and develop against it with Visual Studio Code running as a client application or running in the browser.  This section will provide a high-level overview of these technologies and how they interrelate.  You will find links to more information throughout this section.
+The goal of these technologies is to allow developers to define a fully-configured development environment, run it in a container and develop against it with Visual Studio Code running as a client application or running in the browser.  This section will provide a high-level overview of these technologies and how they interrelate.  You will find links to more information throughout this section.
 
 ## Development Container
 As noted above, a development container is a fully-featured development environment running in a container.  The development container is a Docker container running locally or remotely that, at a high-level, contains the following:
