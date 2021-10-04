@@ -1,25 +1,42 @@
+# Table of Contents
+I. [Overview](#overview)<br/>
+&nbsp;&nbsp;&nbsp;A. [Why you care](why-you-care)<br/>
+&nbsp;&nbsp;&nbsp;B. [What you will learn](what-you-will-learn)<br/>
+II. [How this training is structured](how-this-training-is-structured)<br/>
+III. [Requirements](#requirements)<br/>
+IV. [Overview of Development containers, GitHub Codespaces And Visual Studio Code](#overview-of-development-containers-github-codespaces-and-visual-studio-code)<br/>
+&nbsp;&nbsp;&nbsp;A. [Development Container](#development-container)<br/>
+&nbsp;&nbsp;&nbsp;B. [Visual Studio Code](#visual-studio-code)<br/>
+&nbsp;&nbsp;&nbsp;C. [GitHub Codespaces](#github-codespaces)<br/>
+V. [Challenges](#challenges)<br/>
+&nbsp;&nbsp;&nbsp;A. [Challenge1](Challenges/Challenge1.md)<br/>
+&nbsp;&nbsp;&nbsp;B. [Challenge2](Challenges/Challenge2.md)<br/>
+&nbsp;&nbsp;&nbsp;C. [Challenge3](Challenges/Challenge3.md)<br/>
+&nbsp;&nbsp;&nbsp;D. [Challenge4](Challenges/Challenge4.md)<br/>
+&nbsp;&nbsp;&nbsp;E. [Challenge5](Challenges/Challenge5.md)<br/>
+
 # Overview
 ## Why you care
-Scenarios:
-- Python Development
-- Kubernetes
+Traditionally, there is considerable friction for developers when setting up development environments.  It is not uncommon for devs new to projects to spend days updating their environment before being able to start contributing to the project.  
 
-**Video?**
+The more complex the requirements, the greater the friction.  Consider the following 2 examples:
+1. Configuring a local Kubernetes development environment with the following:
+- Grafana
+- Prometheus
+- Fluentbit
+2. A Python API with:
+- The current version of Python
+- Debugging configured
+- Pytest
+- Flask
 
-# Table of Contents
+The above are 2 very real examples.  The Retail Dev Crew team in CSE has been working with some of the largest Kubernetes deployments in the world.  The dev environment includes everything listed above in example #1 plus much more.  Despite the complex dev environment, the team prides itself upon new devs creating a PR on their first day.  This is only possible because the Retail Dev Crew's use of development containers and GitHub Codespaces.  
 
-# How this training is structured
+Python environments are notoriously challenging to configure.  This is especially true with regard to debugging.
 
+A large blocker to contributing to OSS projects is configuring the development environment.  Imagine being able to instantiate a fully-configured development environment with the click of a button.  That is the promise of development containers and GitHub Codespaces.
 
-# Requirements
-You will need the following to complete the development container challenges in this training [(see detailed installation instructions here)](https://code.visualstudio.com/docs/remote/containers#_system-requirements):
-- Docker for Windows/Mac/Linux
-- Visual Studio Code
-
-You will need to be enabled for GitHub Codespaces in order to complete the codespaces challenges.  [(see documentation here about getting access to Codespaces)](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/enabling-codespaces-for-your-organization)
-
-
-# What you will learn
+## What you will learn
 If you complete this self-directed training, you will:
 - Learn what development containers are
 - Learn what GitHub Codespaces are
@@ -36,7 +53,38 @@ If you complete this self-directed training, you will:
     - dotfiles
 - Patterns and best practices working with development containers and GitHub Codespaces
 
-# Overview - Development containers, GitHub Codespaces & Visual Studio Code
+# How this training is structured
+This GitHub repository has a master branch and a collection of solution branches.
+
+The master branch contains the following:
+- Readme.md - The main training file.  Start here.
+- Challenges/* - The challenge files for this training.  Each Challenge file will contain some learnings/background on the challenge, the challenge itself and, optionally, some helpful hints.
+- api/math_api.py - A very simple python Flask REST API
+- tests/api/test_math_api.py - Pytest unit tests
+- requirements.txt and dev_requirements.txt - Pythong requirements files contining the dependencies for the application and application development environment
+- math.http - A manual test file for use in Challenge 5
+
+Each challenge has its own solution branch.  Use your git client to open each Solution branch.  For example:
+```bash
+git checkout Solution1
+```
+
+Each branch contains the following:
+- Solution(1-N).md - File describing the solution.  **This file may also contain a "From the Field" section where we list some of the learnings the CSE Retail Dev Crews team has had working with GitHub codespaces with our largest customers**
+- The solution configured in the .devcontainer folder
+- Solution(1-N).mp4 - A video outlining a solution to the challenge.  **Open the videos from the file system, not Visual Studio Code**
+
+
+# Requirements
+You will need the following to complete the development container challenges in this training [(see detailed installation instructions here)](https://code.visualstudio.com/docs/remote/containers#_system-requirements):
+- Docker for Windows/Mac/Linux
+- Visual Studio Code
+
+You will need to be enabled for GitHub Codespaces in order to complete the codespaces challenges.  [(see documentation here about getting access to Codespaces)](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/enabling-codespaces-for-your-organization)
+
+
+
+# Overview of Development containers, GitHub Codespaces And Visual Studio Code
 The goal of these technologies is to allow developers to define a fully-configured development environment, run it in a container and develop against it with Visual Studio Code running as a client application or running in the browser.  This section will provide a high-level overview of these technologies and how they interrelate.  You will find links to more information throughout this section.
 
 ## Development Container
@@ -71,3 +119,9 @@ GitHub Codespaces enables exposing a fully configured development environment fo
 
 # The Challenges - Building a Devcontainer
 The challenges below are designed to provide a stepwise approach to building development containers.  They start with the simplist approach, with each subsequent challenge teaching you a further aspect.  Throughout the challeges, we will be providing real-world guidance that we have learned working with real customers in the field.
+- [Challenge1](Challenges/Challenge1.md)
+- [Challenge2](Challenges/Challenge2.md)
+- [Challenge3](Challenges/Challenge3.md)
+- [Challenge4](Challenges/Challenge4.md)
+- [Challenge5](Challenges/Challenge5.md)
+
