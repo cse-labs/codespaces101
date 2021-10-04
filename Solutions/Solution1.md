@@ -28,4 +28,6 @@ Even if we are just using the base image, we have a Dockerfile with a FROM and p
 FROM python:3.9
 ```
 
-The reason we have standardized on this approach is that our approach to developing development containers ends up with tested solutions encapsulated in our Docker image.  However, prior to baking changes directly into the image (stored in a registry), we walk through 2 other stages.  We will explore those in the upcoming challenges.
+There are several reasons we have standardized on this approach:
+1. Consistency - we want all of our dev containers to be consistent
+2. Our approach to developing development containers ends up with tested solutions encapsulated in our Docker image.  However, prior to baking changes directly into the image (stored in a registry), we walk through 2 other stages.  We will explore those in the upcoming challenges.
