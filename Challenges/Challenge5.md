@@ -9,10 +9,10 @@ Beyond the devcontainer.json, it is possible to install extensions that are inst
 
 ### Rest Client - a helpful extension
 There is an extension that is very helpful when developing REST APIs.  It is the [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao).  Among other things, it allows you to send HTTP requests from a file (*.http) and see the results in a separate pain.  See the example below:
-![Rest Client Extension](../Images/RestClientExtension.jpg)
+![Rest Client Extension](../Images/RestClientExtension.png)
 
 ## Challenge
-Install the [Rest Client extension](https://marketplace.visualstudio.com/items?itemName=humao) developer container and make a call to the add operation.
+Install the [Rest Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) developer container and make a call to the add operation.
 
 ## Helpful Hints
 Make sure the API is running.
