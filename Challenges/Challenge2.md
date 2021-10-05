@@ -3,7 +3,7 @@
 You likely noticed in Challenge1 that the default Python development environment configuration did not yield a development environment that was fully configured for the application.  You were forced to further configure the environment for the application dependencies in order to run the tests or access the api.  This is certainly not ideal, as every developer would have to **know** both that they need to install the dependencies **and** how to install them.  A better solution would be to have the dependencies installed in the development environment.
 [Development containers](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) have hooks that allow you to run commands at different points in the development container lifecycle.  These include:
 - onCreateCommand - Run when creating the container
-- postCreateCommend - Run inside the container after it is created
+- postCreateCommand - Run inside the container after it is created
 - postStartCommand - Run every time the container starts
 
 ## Challenge
