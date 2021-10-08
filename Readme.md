@@ -61,7 +61,7 @@ The master branch contains the following:
 - Challenges/* - The challenge files for this training.  Each Challenge file will contain some learnings/background on the challenge, the challenge itself and, optionally, some helpful hints.
 - api/math_api.py - A very simple python Flask REST API
 - tests/api/test_math_api.py - Pytest unit tests
-- requirements.txt and dev_requirements.txt - Pythong requirements files contining the dependencies for the application and application development environment
+- requirements.txt and dev_requirements.txt - Python requirements files contining the dependencies for the application and application development environment
 - math.http - A manual test file for use in Challenge 5
 
 Each challenge has its own solution branch.  Use your git client to open each Solution branch.  For example:

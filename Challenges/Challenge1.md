@@ -7,7 +7,7 @@ In order to learn about configuring development containers, it is helpful to sta
 }
 ```
 
-Although the above works, you will likely want a more helpful configuration.  If you are getting started building a devcontainer, the easiest way is to get started is to use the [predefined container configurations](https://docs.github.com/en/codespaces/customizing-your-codespace/configuring-codespaces-for-your-proje`ct#using-a-predefined-container-configuration) that are available.  They provide a good starting development environment configuration for different environments.
+Although the above works, you will likely want a more helpful configuration.  If you are getting started building a devcontainer, the easiest way is to get started is to use the [predefined container configurations](https://docs.github.com/en/codespaces/customizing-your-codespace/configuring-codespaces-for-your-project#using-a-predefined-container-configuration) that are available.  They provide a good starting development environment configuration for different environments.
 
 ## Challenge
 In this challenge, you need to accomplish the following, using **Visual Studio Code**:
