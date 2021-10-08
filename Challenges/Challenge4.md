@@ -17,4 +17,4 @@ In this challenge, you need to accomplish 2 things:
 2. Label port 5000 "Math API"
 
 ## Helpful Hints
-[devcontaienr.json Reference](https://code.visualstudio.com/docs/remote/devcontainerjson-reference)
+[devcontainer.json reference](https://code.visualstudio.com/docs/remote/devcontainerjson-reference)
