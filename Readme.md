@@ -14,7 +14,7 @@ V. [Challenges](#challenges)<br/>
 &nbsp;&nbsp;&nbsp;C. [Challenge3](Challenges/Challenge3.md)<br/>
 &nbsp;&nbsp;&nbsp;D. [Challenge4](Challenges/Challenge4.md)<br/>
 &nbsp;&nbsp;&nbsp;E. [Challenge5](Challenges/Challenge5.md)<br/>
-&nbsp;&nbsp;&nbsp;E. [Challenge5](Challenges/Challenge6.md)<br/>
+&nbsp;&nbsp;&nbsp;E. [Challenge6](Challenges/Challenge6.md)<br/>
 
 # Overview
 ## Why you care
@@ -128,5 +128,5 @@ The challenges below are designed to provide a stepwise approach to building dev
 - [Challenge3](Challenges/Challenge3.md)
 - [Challenge4](Challenges/Challenge4.md)
 - [Challenge5](Challenges/Challenge5.md)
-- [Challenge5](Challenges/Challenge6.md)
+- [Challenge6](Challenges/Challenge6.md)
 
