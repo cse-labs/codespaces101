@@ -1,8 +1,8 @@
 # Table of Contents
 I. [Overview](#overview)<br/>
-&nbsp;&nbsp;&nbsp;A. [Why you care](why-you-care)<br/>
-&nbsp;&nbsp;&nbsp;B. [What you will learn](what-you-will-learn)<br/>
-II. [How this training is structured](how-this-training-is-structured)<br/>
+&nbsp;&nbsp;&nbsp;A. [Why you care](#why-you-care)<br/>
+&nbsp;&nbsp;&nbsp;B. [What you will learn](#what-you-will-learn)<br/>
+II. [How this training is structured](#how-this-training-is-structured)<br/>
 III. [Requirements](#requirements)<br/>
 IV. [Overview of Development containers, GitHub Codespaces And Visual Studio Code](#overview-of-development-containers-github-codespaces-and-visual-studio-code)<br/>
 &nbsp;&nbsp;&nbsp;A. [Development Container](#development-container)<br/>
@@ -14,6 +14,7 @@ V. [Challenges](#challenges)<br/>
 &nbsp;&nbsp;&nbsp;C. [Challenge3](Challenges/Challenge3.md)<br/>
 &nbsp;&nbsp;&nbsp;D. [Challenge4](Challenges/Challenge4.md)<br/>
 &nbsp;&nbsp;&nbsp;E. [Challenge5](Challenges/Challenge5.md)<br/>
+&nbsp;&nbsp;&nbsp;E. [Challenge5](Challenges/Challenge6.md)<br/>
 
 # Overview
 ## Why you care
@@ -127,4 +128,5 @@ The challenges below are designed to provide a stepwise approach to building dev
 - [Challenge3](Challenges/Challenge3.md)
 - [Challenge4](Challenges/Challenge4.md)
 - [Challenge5](Challenges/Challenge5.md)
+- [Challenge5](Challenges/Challenge6.md)
 
