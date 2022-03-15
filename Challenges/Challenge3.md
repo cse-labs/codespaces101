@@ -1,5 +1,5 @@
 # Moving the customizations from postCreateCommand to the local Dockerfile
-Once we have validated the code in the bash script, the next step is to move the changes to the local Dockerfile.  This brings us back to the tip from solution1:
+Once we have validated the code in the bash script, the next step is to move the changes to the local Dockerfile. This brings us back to the tip from solution 1:
 
 ## (from solution 1) From the Field 
 We never just have an image pointer in devcontainer.json like below:
@@ -9,7 +9,7 @@ We never just have an image pointer in devcontainer.json like below:
 }
 ```
 
-Even if we are just using the base image, we have a Dockerfile with a FROM and point to the image.  Below is a simplified equivelant to the above, using a Dockerfile:
+Even if we are just using the base image, we have a Dockerfile with a FROM and point to the image.  Below is a simplified equivalent to the above, using a Dockerfile:
 ```json
 {
 	"build": {
