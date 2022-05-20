@@ -8,7 +8,7 @@ One of the options is to configure the extensions that are installed in the code
 Beyond the devcontainer.json, it is possible to install extensions that are installed locally in Visual Studio Code in the remote container.  This can be done via the Extensions tab.
 
 ### Rest Client - a helpful extension
-There is an extension that is very helpful when developing REST APIs.  It is the [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao).  Among other things, it allows you to send HTTP requests from a file (*.http) and see the results in a separate panel.  See the example below:
+There is an extension that is very helpful when developing REST APIs.  It is the [Rest Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).  Among other things, it allows you to send HTTP requests from a file (*.http) and see the results in a separate panel.  See the example below:
 ![Rest Client Extension](../Images/RestClientExtension.png)
 
 ## Challenge
