@@ -44,7 +44,7 @@ If you complete this self-directed training, you will:
 - Understand the relationship between Visual Studio Code, development containers and GitHub Codespaces
 - Learn how to build devcontainers
   - Using an existing docker image
-  - Using the commands 
+  - Using the commands
     - onCreateCommand
     - postCreateCommand
     - postStartCommand
@@ -114,7 +114,7 @@ Visual Studio Code has a [Remote-Containers Extension](https://marketplace.visua
 The challenges will mainly be using Visual Studio Code to create and run development containers.
 
 ## GitHub Codespaces
-GitHub Codespaces enables exposing a fully configured development environment for GitHub repositories.  This can be used for anthing from new feature development to code reviews.  Codespaces extends the use of development containers by providing a remote hosting environment for them.  Developers can simply click on a button in GitHub to open a Codespace for the repo.  Behind the scenes, GitHub Codespaces is:
+GitHub Codespaces enables exposing a fully configured development environment for GitHub repositories.  This can be used for anything from new feature development to code reviews.  Codespaces extends the use of development containers by providing a remote hosting environment for them.  Developers can simply click on a button in GitHub to open a Codespace for the repo.  Behind the scenes, GitHub Codespaces is:
 - Spinning up a VM
 - Shallow cloning the repo in that VM.  The shallow clone pulls the devcontainer.json onto the VM
 - Spins up the development container on the VM 
@@ -122,7 +122,7 @@ GitHub Codespaces enables exposing a fully configured development environment fo
 - Connects you to the remotely hosted development container - via the browser or GitHub
 
 # The Challenges - Building a Devcontainer
-The challenges below are designed to provide a stepwise approach to building development containers.  They start with the simplist approach, with each subsequent challenge teaching you a further aspect.  Throughout the challeges, we will be providing real-world guidance that we have learned working with real customers in the field.
+The challenges below are designed to provide a stepwise approach to building development containers.  They start with the simplest approach, with each subsequent challenge teaching you a further aspect.  Throughout the challenges, we will be providing real-world guidance that we have learned working with real customers in the field.
 - [Challenge1](Challenges/Challenge1.md)
 - [Challenge2](Challenges/Challenge2.md)
 - [Challenge3](Challenges/Challenge3.md)
