@@ -1,6 +1,6 @@
 # Using predefined container configurations
 ## Background
-In order to learn about configuring development containers, it is helpful to start with the simplist definition.  The simplist .devcontainer/devcontainer.json file has only an image entry.  
+In order to learn about configuring development containers, it is helpful to start with the simplest definition.  The simplest .devcontainer/devcontainer.json file has only an image entry.
 ```json
 {
     "image": "python:3.9"
